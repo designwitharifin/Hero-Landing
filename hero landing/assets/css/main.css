@@ -1,0 +1,158 @@
+/* Google Fonts Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap');
+
+/* Google Fonts Read Hat Display */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #3A53FF;
+    --black-color: #050505;
+    --gray-color: #7D7D7D;
+    --white-color: #FFF;
+
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+
+.animate__animated.animate__bounceInUp {
+    --animate-duration: 2s;
+}
+
+
+
+.brand {
+    padding-bottom: 62px;
+}
+
+.label p {
+    font-size: 20px;
+    color: var(--gray-color);
+    font-family: 'Red Hat Display';
+}
+
+.label .bx {
+    vertical-align: middle;
+    color: var(--gray-color);
+    font-size: 24px;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.text {
+    font-family: 'Inter';
+}
+
+.text h5 {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--black-color);
+    padding: 24px 0 46px 0;
+}
+
+.text p {
+    font-size: 48px;
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    box-shadow: 0px 17px 30px rgba(58, 83, 255, 0.29);
+}
+
+a.btn {
+    margin-top: 51px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 16px;
+}
+
+a.btn i {
+    font-size: 34px;
+    vertical-align: middle;
+    padding-left: 106px;
+}
+
+.content,
+.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url('../img/DRIP_20.svg');
+    background-size: 35vw;
+    background-position: center center;
+    background-color: #99A6FF;
+    background-repeat: no-repeat;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+    a.btn {
+        display: block;
+    }
+
+    a.btn i {
+        padding-left: 0;
+    }
+
+    .label p {
+        font-size: 16px;
+        color: var(--gray-color);
+        font-family: 'Red Hat Display';
+    }
+
+
+    .text h5 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 142.02%;
+        color: var(--black-color);
+    }
+
+    .text p {
+        font-size: 40px;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    a.btn {
+        display: block;
+    }
+
+    a.btn i {
+        padding-left: 0;
+    }
+
+    .label p {
+        font-size: 16px;
+        color: var(--gray-color);
+        font-family: 'Red Hat Display';
+    }
+
+
+    .text h5 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 142.02%;
+        color: var(--black-color);
+    }
+
+    .text p {
+        font-size: 40px;
+    }
+}

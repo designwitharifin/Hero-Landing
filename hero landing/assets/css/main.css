@@ -15,12 +15,14 @@
     --animate-delay: 0.9s;
 }
 
+
 /* Animate */
 .animate__animated.animate__bounceInUp {
-    --animate-duration: 2s;
+    --animation-duration: 2s;
 }
 
-/* The image half  */
+
+/* The image half */
 .content,
 .image {
     min-height: 100vh;
@@ -29,13 +31,13 @@
 .bg-image {
     background-image: url('../img/DRIP_20.svg');
     background-size: 35vw;
-    background-position: center center;
+    background-position: center;
     background-color: #99A6FF;
     background-repeat: no-repeat;
 }
 
 
-/* The content half  */
+/* The content half */
 .brand {
     padding: 52px 0;
 }
@@ -69,7 +71,7 @@
     font-size: 40px;
     font-weight: 400;
     color: var(--black-color);
-    padding: 0px 0 46px 0;
+    padding: 0 0 46px 0;
 }
 
 .text p {
@@ -98,9 +100,8 @@ a.btn i {
     padding-left: 106px;
 }
 
-
 /* Responsive for mobile */
-@media (max-width: 767.98px) {
+@media(max-width: 767.98px) {
     a.btn {
         display: block;
     }
@@ -111,27 +112,23 @@ a.btn i {
 
     .label p {
         font-size: 16px;
-        color: var(--gray-color);
-        font-family: 'Red Hat Display';
     }
-
 
     .text h5 {
         font-size: 32px;
         font-weight: 300;
         line-height: 142.02%;
-        color: var(--black-color);
     }
 
     .text p {
         font-size: 40px;
     }
-
 }
+
 
 /* Responsive for tablet */
 
-@media (max-width: 768px) {
+@media(max-width: 768px) {
     a.btn {
         display: block;
     }
@@ -142,16 +139,12 @@ a.btn i {
 
     .label p {
         font-size: 16px;
-        color: var(--gray-color);
-        font-family: 'Red Hat Display';
     }
-
 
     .text h5 {
         font-size: 32px;
         font-weight: 300;
         line-height: 142.02%;
-        color: var(--black-color);
     }
 
     .text p {

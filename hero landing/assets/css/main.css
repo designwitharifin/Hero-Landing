@@ -101,7 +101,7 @@ a.btn i {
 }
 
 /* Responsive for mobile */
-@media(max-width: 767.98px) {
+@media(max-width: 576px) {
     a.btn {
         display: block;
     }

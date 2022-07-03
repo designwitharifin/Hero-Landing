@@ -1,7 +1,7 @@
 /* Google Fonts Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap');
 
-/* Google Fonts Read Hat Display */
+/* Google Fonts Red Hat Display */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
 
 
@@ -15,15 +15,29 @@
     --animate-delay: 0.9s;
 }
 
-
+/* Animate */
 .animate__animated.animate__bounceInUp {
     --animate-duration: 2s;
 }
 
+/* The image half  */
+.content,
+.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url('../img/DRIP_20.svg');
+    background-size: 35vw;
+    background-position: center center;
+    background-color: #99A6FF;
+    background-repeat: no-repeat;
+}
 
 
+/* The content half  */
 .brand {
-    padding-bottom: 62px;
+    padding: 52px 0;
 }
 
 .label p {
@@ -52,14 +66,14 @@
 }
 
 .text h5 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 400;
     color: var(--black-color);
-    padding: 24px 0 46px 0;
+    padding: 0px 0 46px 0;
 }
 
 .text p {
-    font-size: 48px;
+    font-size: 40px;
     color: var(--black-color);
     font-weight: 700;
 }
@@ -84,20 +98,8 @@ a.btn i {
     padding-left: 106px;
 }
 
-.content,
-.image {
-    min-height: 100vh;
-}
 
-.bg-image {
-    background-image: url('../img/DRIP_20.svg');
-    background-size: 35vw;
-    background-position: center center;
-    background-color: #99A6FF;
-    background-repeat: no-repeat;
-}
-
-/* Responsive */
+/* Responsive for mobile */
 @media (max-width: 767.98px) {
     a.btn {
         display: block;
@@ -127,7 +129,7 @@ a.btn i {
 
 }
 
-/* Tablet */
+/* Responsive for tablet */
 
 @media (max-width: 768px) {
     a.btn {
